@@ -1,0 +1,58 @@
+/* Profile Image */
+.profile-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #0b3d91;
+}
+
+/* Skill Cards */
+.skill-card {
+  background: #0b3d91;
+  color: white;
+  height: 230px;        /* equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-icon img {
+    width: 55px; /* bigger icons */
+    height: 55px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-icon:hover img {
+    transform: scale(1.2);
+}
+
